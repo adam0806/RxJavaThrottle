@@ -1,4 +1,4 @@
-package com.example.lenovo.rxjavathrottle;
+package com.example.lenovo.throttle;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
