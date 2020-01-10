@@ -11,6 +11,7 @@ Use:
 1. choose throttleFirst or throttleLast with millisecon period
 2. subscribe(alrealy on Main-Thread)
 
+```Kotlin
 Throttle.Builder<String>("1")
                 .throttleFirst(mPeriod)
                 .subscribe(object : Throttle.Observable{
@@ -20,3 +21,4 @@ Throttle.Builder<String>("1")
                     }
                 })
             })
+```
